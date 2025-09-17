@@ -32,7 +32,7 @@ interface MovieDetails {
     poster_path: string;
     backdrop_path: string;
   } | null;
-  budget: number;
+  budget?: number;
   genres: {
     id: number;
     name: string;
@@ -56,7 +56,7 @@ interface MovieDetails {
     name: string;
   }[];
   release_date: string;
-  revenue: number;
+  revenue?: number;
   runtime: number | null;
   spoken_languages: {
     english_name: string;
